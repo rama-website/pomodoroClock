@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  #timerDisplay {
+    font-size: 72px;
+    margin: 40px 0;
+  }
+  
+  button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
+  #startButton {
+    background-color: #4caf50;
+  }
+  
+  #pauseButton {
+    background-color: #f44336;
+  }
+  
+  #resetButton {
+    background-color: #2196f3;
+  }
